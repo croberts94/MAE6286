@@ -44,7 +44,7 @@ div #notebook { /* centre the content */
 
 /* draw border around running cells */
 div.cell.border-box-sizing.code_cell.running { 
-    border: 1px solid #111;
+    border: 1px http://localhost:8888/edit/Desktop/GitHub/MAE6286/connor_style.css#solid #111;
 }
 
 /* Put a solid color box around each cell and its output, visually linking them*/
@@ -62,7 +62,7 @@ div.text_cell_render{
     font-size: 125%;
     font-weight: 400;
     width:100%;
-    margin-left:auto;
+    margin-left:1em;
     margin-right:auto;
 }
 
@@ -72,14 +72,14 @@ div.text_cell_render{
     font-family: 'Nixie One', serif;
     text-decoration: underline;
     /*border-bottom: 5px solid rgb(0,51,102);*/
-    text-align: center;
     font-weight: 400;    
-    font-size: 45pt;
+    font-size: 40pt;
     line-height: 100%;
     color: rgb(0,51,102);
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     display: block;
+    /*margin-left: -1em;*/
     }
 
 .text_cell_render h2 {
